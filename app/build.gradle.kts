@@ -8,7 +8,7 @@ plugins {
 
 android {
     namespace = "com.example.jetpackapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.jetpackapp"
@@ -58,7 +58,6 @@ android {
 dependencies {
     // ✅ Core & Material
     implementation(libs.androidx.core.ktx)
-    implementation(libs.material)
 
     // ✅ Lifecycle & ViewModel
     implementation(libs.androidx.lifecycle.runtime.ktx)
